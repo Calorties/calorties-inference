@@ -15,3 +15,4 @@ async def predict_food(file: UploadFile = File(...)):
     predicted_food = predict_food_from_image(img)
 
     return {"predicted_food": predicted_food}
+    
